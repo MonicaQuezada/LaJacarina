@@ -39,7 +39,7 @@
         <div class="col-md-8">
           <div class="buscador" style="margin-left: 28rem;">
             <textarea id="query" name="query" cols="50" rows="1"></textarea>
-            <button id="search-button" class="btn" type ="button" disabled onclick="search(); buscador();" style="background-color: #fff;color:black;padding:0.001rem"><i class="fas fa-info"></i></button>
+            <button id="search-button" class="btn" type ="button" onclick="search(); buscador();" style="background-color: #fff;color:black;padding:0.001rem"><i class="fas fa-info"></i></button>
           </div>
         </div>
       </div>
